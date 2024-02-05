@@ -1,0 +1,56 @@
+img {
+    width: 400px;
+    border-radius: 5%;
+    border: solid black 5px;
+    background-color: white;
+}
+
+body {
+    background-color: rgba(234, 255, 143, 0.899);
+} 
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.hide1data {
+    display: none;
+  }
+  
+  .hide1:hover + .hide1data {
+    display: block;
+    color: red;
+  }
+
+  .hide2data {
+    display: none;
+  }
+  
+  .hide2:hover + .hide2data {
+    display: block;
+    color: red;
+  }
+
+  .hide3data {
+    display: none;
+  }
+  
+  .hide3:hover + .hide3data {
+    display: block;
+    color: red;
+  }
+
+  .hide1:hover img {
+    transform: rotate(0.525turn);
+
+  }    
+
+  .hide2:hover img {
+    transform: rotate(0.525turn);
+  }    
+
+  .hide3:hover img {
+    transform: rotate(0.525turn);
+  }    
+
+  
