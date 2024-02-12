@@ -1,0 +1,61 @@
+main {
+    width: 600px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: rgb(63,174,251);
+    background: linear-gradient(90deg, rgba(63,174,251,1) 0%, rgba(132,137,194,1) 19%, rgba(190,104,129,1) 50%, rgba(252,70,70,1) 78%);
+}
+
+#stoppls {
+    animation: kfade 2.5s;
+    transform-origin: right top;
+}
+
+@keyframes kfade {
+    50%   { transform: scale(0.1);}
+    100% { transform: scale(1.0);}
+  }
+
+#sparkle {
+    animation: kfade 5.0s;
+    transform-origin: left bottom;
+}
+
+@keyframes kfade {
+    0%   { transform: scale(0.1);}
+    100% { transform: scale(1.0);}
+  }
+
+#plasticmain {
+    animation: tfade 2.0s;
+    transform-origin: center;
+  }
+  
+  @keyframes tfade {
+    0%   { transform: rotate(360deg);}
+    100% { transform: rotate(0deg);}
+  }
+
+  #plscap {
+    animation: tfade 2.5s;
+    transform-origin: center;
+  }
+  
+  @keyframes tfade {
+    0%   { transform: rotate(360deg);}
+    100% { transform: rotate(0deg);}
+  }
+
+.betterb {
+    width: 500px;
+    display: block;
+    transition: transform .1s linear;
+    transform-origin: left bottom;
+  }
+  
+  .betterb:hover {
+    transform: scale(2);
+  }
+  
